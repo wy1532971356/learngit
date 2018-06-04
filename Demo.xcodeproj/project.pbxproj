@@ -15,6 +15,18 @@
 		04B501A820AA8074005B6A93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B501A620AA8074005B6A93 /* LaunchScreen.storyboard */; };
 		04B501B320AA8075005B6A93 /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B501B220AA8075005B6A93 /* DemoTests.m */; };
 		04B501BE20AA8075005B6A93 /* DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B501BD20AA8075005B6A93 /* DemoUITests.m */; };
+		04B501CD20AAC0DA005B6A93 /* registerOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B501CC20AAC0DA005B6A93 /* registerOneViewController.m */; };
+		04B501D120AAC210005B6A93 /* userInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B501D020AAC210005B6A93 /* userInfo.m */; };
+		04B501D520AACE8F005B6A93 /* BasicDao.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B501D420AACE8F005B6A93 /* BasicDao.m */; };
+		04B501D920AACF4C005B6A93 /* WGJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B501D820AACF4C005B6A93 /* WGJsonParser.m */; };
+		04B501DC20AACF8C005B6A93 /* WGJsonParserDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B501DB20AACF8C005B6A93 /* WGJsonParserDelegate.m */; };
+		04B501DF20AAD043005B6A93 /* TrimWhitespace.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B501DE20AAD043005B6A93 /* TrimWhitespace.m */; };
+		04B501E320AAD0FF005B6A93 /* AccountDao.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B501E220AAD0FF005B6A93 /* AccountDao.m */; };
+		04B501E620AAD33E005B6A93 /* resultInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B501E520AAD33E005B6A93 /* resultInfo.m */; };
+		04B501E920AAD523005B6A93 /* registerTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B501E820AAD523005B6A93 /* registerTwoViewController.m */; };
+		04B501ED20AAFC18005B6A93 /* registerThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B501EC20AAFC18005B6A93 /* registerThreeViewController.m */; };
+		04B501F020AB3E0D005B6A93 /* loginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B501EF20AB3E0D005B6A93 /* loginViewController.m */; };
+		2610B9BA1466B01BBCB2B488 /* libPods-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F696179EA8D995FB8CEF45F /* libPods-Demo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +63,33 @@
 		04B501B920AA8075005B6A93 /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B501BD20AA8075005B6A93 /* DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoUITests.m; sourceTree = "<group>"; };
 		04B501BF20AA8075005B6A93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B501CB20AAC0DA005B6A93 /* registerOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = registerOneViewController.h; sourceTree = "<group>"; };
+		04B501CC20AAC0DA005B6A93 /* registerOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = registerOneViewController.m; sourceTree = "<group>"; };
+		04B501CF20AAC210005B6A93 /* userInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = userInfo.h; sourceTree = "<group>"; };
+		04B501D020AAC210005B6A93 /* userInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = userInfo.m; sourceTree = "<group>"; };
+		04B501D320AACE8F005B6A93 /* BasicDao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicDao.h; sourceTree = "<group>"; };
+		04B501D420AACE8F005B6A93 /* BasicDao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicDao.m; sourceTree = "<group>"; };
+		04B501D720AACF4C005B6A93 /* WGJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGJsonParser.h; sourceTree = "<group>"; };
+		04B501D820AACF4C005B6A93 /* WGJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGJsonParser.m; sourceTree = "<group>"; };
+		04B501DA20AACF8C005B6A93 /* WGJsonParserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGJsonParserDelegate.h; sourceTree = "<group>"; };
+		04B501DB20AACF8C005B6A93 /* WGJsonParserDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGJsonParserDelegate.m; sourceTree = "<group>"; };
+		04B501DD20AAD043005B6A93 /* TrimWhitespace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrimWhitespace.h; sourceTree = "<group>"; };
+		04B501DE20AAD043005B6A93 /* TrimWhitespace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrimWhitespace.m; sourceTree = "<group>"; };
+		04B501E020AAD091005B6A93 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		04B501E120AAD0FF005B6A93 /* AccountDao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountDao.h; sourceTree = "<group>"; };
+		04B501E220AAD0FF005B6A93 /* AccountDao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountDao.m; sourceTree = "<group>"; };
+		04B501E420AAD33E005B6A93 /* resultInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resultInfo.h; sourceTree = "<group>"; };
+		04B501E520AAD33E005B6A93 /* resultInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = resultInfo.m; sourceTree = "<group>"; };
+		04B501E720AAD523005B6A93 /* registerTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = registerTwoViewController.h; sourceTree = "<group>"; };
+		04B501E820AAD523005B6A93 /* registerTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = registerTwoViewController.m; sourceTree = "<group>"; };
+		04B501EA20AAE3AB005B6A93 /* WGMessageDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGMessageDelegate.h; sourceTree = "<group>"; };
+		04B501EB20AAFC18005B6A93 /* registerThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = registerThreeViewController.h; sourceTree = "<group>"; };
+		04B501EC20AAFC18005B6A93 /* registerThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = registerThreeViewController.m; sourceTree = "<group>"; };
+		04B501EE20AB3E0D005B6A93 /* loginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginViewController.h; sourceTree = "<group>"; };
+		04B501EF20AB3E0D005B6A93 /* loginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginViewController.m; sourceTree = "<group>"; };
+		1AF4F6EA55FA369DC602B3FB /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		5F696179EA8D995FB8CEF45F /* libPods-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8C95DDB58DAB0294842493C /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2610B9BA1466B01BBCB2B488 /* libPods-Demo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +125,8 @@
 				04B501B120AA8075005B6A93 /* DemoTests */,
 				04B501BC20AA8075005B6A93 /* DemoUITests */,
 				04B5019620AA8074005B6A93 /* Products */,
+				B05AA29FC84801D3237E48FE /* Pods */,
+				A51DC9F8CDF131F1F67FF563 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +143,17 @@
 		04B5019720AA8074005B6A93 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				04B501D620AACF20005B6A93 /* utils */,
+				04B501D220AACE3A005B6A93 /* Dao */,
+				04B501CE20AAC1B7005B6A93 /* model */,
+				04B501CB20AAC0DA005B6A93 /* registerOneViewController.h */,
+				04B501CC20AAC0DA005B6A93 /* registerOneViewController.m */,
+				04B501E720AAD523005B6A93 /* registerTwoViewController.h */,
+				04B501E820AAD523005B6A93 /* registerTwoViewController.m */,
+				04B501EB20AAFC18005B6A93 /* registerThreeViewController.h */,
+				04B501EC20AAFC18005B6A93 /* registerThreeViewController.m */,
+				04B501EE20AB3E0D005B6A93 /* loginViewController.h */,
+				04B501EF20AB3E0D005B6A93 /* loginViewController.m */,
 				04B5019B20AA8074005B6A93 /* AppDelegate.h */,
 				04B5019C20AA8074005B6A93 /* AppDelegate.m */,
 				04B5019E20AA8074005B6A93 /* ViewController.h */,
@@ -140,6 +193,60 @@
 			path = DemoUITests;
 			sourceTree = "<group>";
 		};
+		04B501CE20AAC1B7005B6A93 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				04B501CF20AAC210005B6A93 /* userInfo.h */,
+				04B501D020AAC210005B6A93 /* userInfo.m */,
+				04B501E420AAD33E005B6A93 /* resultInfo.h */,
+				04B501E520AAD33E005B6A93 /* resultInfo.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		04B501D220AACE3A005B6A93 /* Dao */ = {
+			isa = PBXGroup;
+			children = (
+				04B501D320AACE8F005B6A93 /* BasicDao.h */,
+				04B501D420AACE8F005B6A93 /* BasicDao.m */,
+				04B501E120AAD0FF005B6A93 /* AccountDao.h */,
+				04B501E220AAD0FF005B6A93 /* AccountDao.m */,
+			);
+			name = Dao;
+			sourceTree = "<group>";
+		};
+		04B501D620AACF20005B6A93 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				04B501D720AACF4C005B6A93 /* WGJsonParser.h */,
+				04B501D820AACF4C005B6A93 /* WGJsonParser.m */,
+				04B501DA20AACF8C005B6A93 /* WGJsonParserDelegate.h */,
+				04B501DB20AACF8C005B6A93 /* WGJsonParserDelegate.m */,
+				04B501DD20AAD043005B6A93 /* TrimWhitespace.h */,
+				04B501DE20AAD043005B6A93 /* TrimWhitespace.m */,
+				04B501E020AAD091005B6A93 /* Constants.h */,
+				04B501EA20AAE3AB005B6A93 /* WGMessageDelegate.h */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+		A51DC9F8CDF131F1F67FF563 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F696179EA8D995FB8CEF45F /* libPods-Demo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B05AA29FC84801D3237E48FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AF4F6EA55FA369DC602B3FB /* Pods-Demo.debug.xcconfig */,
+				C8C95DDB58DAB0294842493C /* Pods-Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,6 +254,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04B501C220AA8075005B6A93 /* Build configuration list for PBXNativeTarget "Demo" */;
 			buildPhases = (
+				FBDBA6FD960722B321108D5D /* [CP] Check Pods Manifest.lock */,
 				04B5019120AA8074005B6A93 /* Sources */,
 				04B5019220AA8074005B6A93 /* Frameworks */,
 				04B5019320AA8074005B6A93 /* Resources */,
@@ -268,14 +376,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		FBDBA6FD960722B321108D5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04B5019120AA8074005B6A93 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B501E920AAD523005B6A93 /* registerTwoViewController.m in Sources */,
+				04B501E320AAD0FF005B6A93 /* AccountDao.m in Sources */,
+				04B501E620AAD33E005B6A93 /* resultInfo.m in Sources */,
+				04B501DF20AAD043005B6A93 /* TrimWhitespace.m in Sources */,
+				04B501D120AAC210005B6A93 /* userInfo.m in Sources */,
+				04B501DC20AACF8C005B6A93 /* WGJsonParserDelegate.m in Sources */,
+				04B501CD20AAC0DA005B6A93 /* registerOneViewController.m in Sources */,
+				04B501ED20AAFC18005B6A93 /* registerThreeViewController.m in Sources */,
+				04B501D920AACF4C005B6A93 /* WGJsonParser.m in Sources */,
 				04B501A020AA8074005B6A93 /* ViewController.m in Sources */,
+				04B501F020AB3E0D005B6A93 /* loginViewController.m in Sources */,
 				04B5019D20AA8074005B6A93 /* AppDelegate.m in Sources */,
 				04B5019A20AA8074005B6A93 /* main.m in Sources */,
+				04B501D520AACE8F005B6A93 /* BasicDao.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +564,7 @@
 		};
 		04B501C320AA8075005B6A93 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AF4F6EA55FA369DC602B3FB /* Pods-Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Demo/Info.plist;
@@ -435,6 +576,7 @@
 		};
 		04B501C420AA8075005B6A93 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8C95DDB58DAB0294842493C /* Pods-Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Demo/Info.plist;
@@ -509,6 +651,7 @@
 				04B501C420AA8075005B6A93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04B501C520AA8075005B6A93 /* Build configuration list for PBXNativeTarget "DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +660,7 @@
 				04B501C720AA8075005B6A93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04B501C820AA8075005B6A93 /* Build configuration list for PBXNativeTarget "DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +669,7 @@
 				04B501CA20AA8075005B6A93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

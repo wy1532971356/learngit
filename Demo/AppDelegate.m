@@ -48,4 +48,23 @@
 }
 
 
+-(NSString *)getUserAccount{
+    return self.userAccounr;
+}
+
+-(NSString *)getUserName{
+    return self.userName;
+}
+
+-(NSString *)getUserSex;
+{
+    return self.userSex;
+}
+-(NSString *)getUserAddress{
+    return self.userAddress;
+}
+-(NSString *)getUserPassword{
+    return self.userPassword;
+}
+
 @end
